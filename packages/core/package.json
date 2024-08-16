@@ -21,5 +21,6 @@
   },
   "dependencies": {
     "@frontend-dev-cli/utils": "^0.0.1"
-  }
+  },
+  "gitHead": "e52b953e2fbd401f05039f0b5b5d18d30665ae3f"
 }

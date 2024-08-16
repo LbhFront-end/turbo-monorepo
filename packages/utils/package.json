@@ -18,5 +18,6 @@
   },
   "scripts": {
     "build": "tsc --watch"
-  }
+  },
+  "gitHead": "e52b953e2fbd401f05039f0b5b5d18d30665ae3f"
 }
