@@ -1,0 +1,22 @@
+{
+  "name": "@frontend-dev-cli/utils",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "laibh <544289495@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "build/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "build"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsc --watch"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@frontend-dev-cli/core",
+  "version": "0.0.0",
+  "description": "cli核心包",
+  "author": "laibh <544289495@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "build"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsc --watch"
+  },
+  "dependencies": {
+    "@frontend-dev-cli/utils": "^0.0.0"
+  }
+}
