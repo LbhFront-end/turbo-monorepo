@@ -11,7 +11,9 @@
     "lerna-create": "lerna create",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "momorepo"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {

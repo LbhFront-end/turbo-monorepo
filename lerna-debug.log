@@ -7,7 +7,7 @@
 1 notice cli v8.1.8
 2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
 3 verbose rootPath C:\Code\github\lerna-learn
-4 verbose session ca54bfcf2c3e851b
+4 verbose session 71612c1115678c02
 5 verbose user-agent lerna/8.1.8/node@v20.11.0+x64 (win32)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '8.1.8' }
 7 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
@@ -25,8 +25,8 @@
 19 info Assuming all packages changed
 20 verbose updated @frontend-dev-cli/core
 21 verbose updated @frontend-dev-cli/utils
-22 verbose git-describe undefined => "449d9d7"
-23 silly git-describe parsed => {"refCount":"6","sha":"449d9d7","isDirty":false}
+22 verbose git-describe undefined => "f7a755b"
+23 silly git-describe parsed => {"refCount":"7","sha":"f7a755b","isDirty":false}
 24 info execute Skipping releases
 25 silly lifecycle No script for "preversion" in "frontend-dev-cli", continuing
 26 silly lifecycle No script for "preversion" in "@frontend-dev-cli/utils", continuing
@@ -52,7 +52,7 @@
 41 silly gitPush origin main
 42 info publish Publishing packages to npm...
 43 silly getCurrentSHA
-44 verbose getCurrentSHA 449d9d7109c776dc86c589f53d1311a1467cb79d
+44 verbose getCurrentSHA f7a755b99a6ec48006f80597e5ce0af1ec13dfc5
 45 silly lifecycle No script for "prepublish" in "frontend-dev-cli", continuing
 46 silly lifecycle No script for "prepare" in "frontend-dev-cli", continuing
 47 silly lifecycle No script for "prepublishOnly" in "frontend-dev-cli", continuing
@@ -76,15 +76,19 @@
 65 silly FetchError: request to https://registry.npmjs.org/@frontend-dev-cli%2futils failed, reason: read ECONNRESET
 65 silly     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
 65 silly     at ClientRequest.emit (node:events:518:28)
-65 silly     at _destroy (node:_http_client:875:13)
-65 silly     at onSocketNT (node:_http_client:895:5)
-65 silly     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+65 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+65 silly     at TLSSocket.emit (node:events:518:28)
+65 silly     at emitErrorNT (node:internal/streams/destroy:169:8)
+65 silly     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+65 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 65 silly  FetchError: request to https://registry.npmjs.org/@frontend-dev-cli%2futils failed, reason: read ECONNRESET
 65 silly     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
 65 silly     at ClientRequest.emit (node:events:518:28)
-65 silly     at _destroy (node:_http_client:875:13)
-65 silly     at onSocketNT (node:_http_client:895:5)
-65 silly     at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+65 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+65 silly     at TLSSocket.emit (node:events:518:28)
+65 silly     at emitErrorNT (node:internal/streams/destroy:169:8)
+65 silly     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+65 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
 65 silly   code: 'ECONNRESET',
 65 silly   errno: 'ECONNRESET',
 65 silly   syscall: 'read',
@@ -96,5 +100,7 @@
 69 error FetchError: request to https://registry.npmjs.org/@frontend-dev-cli%2futils failed, reason: read ECONNRESET
 69 error     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
 69 error     at ClientRequest.emit (node:events:518:28)
-69 error     at _destroy (node:_http_client:875:13)
-69 error     at onSocketNT (node:_http_client:895:5)
+69 error     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+69 error     at TLSSocket.emit (node:events:518:28)
+69 error     at emitErrorNT (node:internal/streams/destroy:169:8)
+69 error     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
