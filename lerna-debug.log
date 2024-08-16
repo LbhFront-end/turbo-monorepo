@@ -1,15 +1,8 @@
-0 silly argv {
-0 silly argv   _: [ 'create' ],
-0 silly argv   lernaVersion: '8.1.8',
-0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js',
-0 silly argv   name: '@frontend-dev-cli/core'
-0 silly argv }
-1 notice cli v8.1.8
-2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
-3 verbose rootPath C:\Code\github\lerna-learn
-4 error Error: Command failed with exit code 1: git config --get user.name
-4 error     at makeError (C:\Code\github\lerna-learn\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
-4 error     at module.exports.sync (C:\Code\github\lerna-learn\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:186:17)
-4 error     at execSync (C:\Code\github\lerna-learn\node_modules\.pnpm\@lerna+create@8.1.8_typescript@5.5.4\node_modules\@lerna\create\dist\command.js:1505:31)
-4 error     at CreateCommand.gitConfig (C:\Code\github\lerna-learn\node_modules\.pnpm\@lerna+create@8.1.8_typescript@5.5.4\node_modules\@lerna\create\dist\command.js:5481:16)
-4 error     at CreateCommand.initialize (C:\Code\github\lerna-learn\node_modules\.pnpm\@lerna+create@8.1.8_typescript@5.5.4\node_modules\@lerna\create\dist\command.js:5412:50)
+45 error Error: Command failed with exit code 128: git tag v0.0.1 -m v0.0.1
+45 error fatal: tag 'v0.0.1' already exists
+45 error     at makeError (C:\Code\github\lerna-learn\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
+45 error     at handlePromise (C:\Code\github\lerna-learn\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:114:26)
+45 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+45 error     at async VersionCommand.gitCommitAndTagVersion (C:\Code\github\lerna-learn\node_modules\.pnpm\lerna@8.1.8\node_modules\lerna\dist\index.js:9961:9)
+45 error     at async VersionCommand.commitAndTagUpdates (C:\Code\github\lerna-learn\node_modules\.pnpm\lerna@8.1.8\node_modules\lerna\dist\index.js:9926:18)
+45 error     at async Promise.all (index 0)
