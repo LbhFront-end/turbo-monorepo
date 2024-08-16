@@ -24,7 +24,7 @@ importers:
   packages/core:
     dependencies:
       '@frontend-dev-cli/utils':
-        specifier: ^0.0.0
+        specifier: ^0.0.1
         version: link:../utils
 
   packages/utils: {}
