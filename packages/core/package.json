@@ -20,6 +20,6 @@
     "build": "tsc --watch"
   },
   "dependencies": {
-    "@frontend-dev-cli/utils": "^0.0.0"
+    "@frontend-dev-cli/utils": "^0.0.1"
   }
 }
