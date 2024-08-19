@@ -14,6 +14,7 @@
     "build"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
@@ -22,5 +23,5 @@
   "dependencies": {
     "@laibh-dev-cli/utils": "^0.0.1"
   },
-  "gitHead": "5a03d425154315a7fab4b46b52463e661267a03d"
+  "gitHead": "246d35362cd85c269998688fa1227a6056ee43c3"
 }
