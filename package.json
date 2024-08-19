@@ -6,7 +6,7 @@
   "packageManager": "pnpm@8.15.0",
   "scripts": {
     "build": "turbo run build",
-    "lerna-publish": "lerna publish --npm-client npm",
+    "lerna-publish": "lerna publish",
     "lerna-init": "lerna init",
     "lerna-create": "lerna create",
     "test": "echo \"Error: no test specified\" && exit 1"
