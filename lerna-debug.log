@@ -7,7 +7,7 @@
 1 notice cli v8.1.8
 2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
 3 verbose rootPath C:\Code\github\lerna-learn
-4 verbose session 71612c1115678c02
+4 verbose session 46e92622e89dc16b
 5 verbose user-agent lerna/8.1.8/node@v20.11.0+x64 (win32)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '8.1.8' }
 7 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
@@ -25,8 +25,8 @@
 19 info Assuming all packages changed
 20 verbose updated @laibh-dev-cli/core
 21 verbose updated @laibh-dev-cli/utils
-22 verbose git-describe undefined => "f7a755b"
-23 silly git-describe parsed => {"refCount":"7","sha":"f7a755b","isDirty":false}
+22 verbose git-describe undefined => "1204a12"
+23 silly git-describe parsed => {"refCount":"11","sha":"1204a12","isDirty":false}
 24 info execute Skipping releases
 25 silly lifecycle No script for "preversion" in "laibh-dev-cli", continuing
 26 silly lifecycle No script for "preversion" in "@laibh-dev-cli/utils", continuing
@@ -43,64 +43,60 @@
 34 silly gitAdd   'lerna.json',
 34 silly gitAdd   'pnpm-lock.yaml'
 34 silly gitAdd ]
-35 silly gitTag v0.0.1 git tag %s -m %s
-36 verbose git [ 'tag', 'v0.0.1', '-m', 'v0.0.1' ]
-37 silly lifecycle No script for "postversion" in "@laibh-dev-cli/core", continuing
-38 silly lifecycle No script for "postversion" in "@laibh-dev-cli/utils", continuing
-39 silly lifecycle No script for "postversion" in "laibh-dev-cli", continuing
-40 info git Pushing tags...
-41 silly gitPush origin main
-42 info publish Publishing packages to npm...
-43 silly getCurrentSHA
-44 verbose getCurrentSHA f7a755b99a6ec48006f80597e5ce0af1ec13dfc5
-45 silly lifecycle No script for "prepublish" in "laibh-dev-cli", continuing
-46 silly lifecycle No script for "prepare" in "laibh-dev-cli", continuing
-47 silly lifecycle No script for "prepublishOnly" in "laibh-dev-cli", continuing
-48 silly lifecycle No script for "prepack" in "laibh-dev-cli", continuing
-49 verbose pack-directory packages\utils
-50 silly lifecycle No script for "prepublish" in "@laibh-dev-cli/utils", continuing
-51 silly lifecycle No script for "prepare" in "@laibh-dev-cli/utils", continuing
-52 silly lifecycle No script for "prepublishOnly" in "@laibh-dev-cli/utils", continuing
-53 silly lifecycle No script for "prepack" in "@laibh-dev-cli/utils", continuing
-54 silly lifecycle No script for "postpack" in "@laibh-dev-cli/utils", continuing
-55 verbose packed packages\utils
-56 verbose pack-directory packages\core
-57 silly lifecycle No script for "prepublish" in "@laibh-dev-cli/core", continuing
-58 silly lifecycle No script for "prepare" in "@laibh-dev-cli/core", continuing
-59 silly lifecycle No script for "prepublishOnly" in "@laibh-dev-cli/core", continuing
-60 silly lifecycle No script for "prepack" in "@laibh-dev-cli/core", continuing
-61 silly lifecycle No script for "postpack" in "@laibh-dev-cli/core", continuing
-62 verbose packed packages\core
-63 silly lifecycle No script for "postpack" in "laibh-dev-cli", continuing
-64 verbose publish @laibh-dev-cli/utils
-65 silly FetchError: request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
-65 silly     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
-65 silly     at ClientRequest.emit (node:events:518:28)
-65 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
-65 silly     at TLSSocket.emit (node:events:518:28)
-65 silly     at emitErrorNT (node:internal/streams/destroy:169:8)
-65 silly     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-65 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-65 silly  FetchError: request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
-65 silly     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
-65 silly     at ClientRequest.emit (node:events:518:28)
-65 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
-65 silly     at TLSSocket.emit (node:events:518:28)
-65 silly     at emitErrorNT (node:internal/streams/destroy:169:8)
-65 silly     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-65 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
-65 silly   code: 'ECONNRESET',
-65 silly   errno: 'ECONNRESET',
-65 silly   syscall: 'read',
-65 silly   type: 'system'
-65 silly }
-66 warn notice Package failed to publish: @laibh-dev-cli/utils
-67 error ECONNRESET request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
-68 error errno "ECONNRESET" is not a valid exit code - exiting with code 1
-69 error FetchError: request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
-69 error     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
-69 error     at ClientRequest.emit (node:events:518:28)
-69 error     at TLSSocket.socketErrorListener (node:_http_client:495:9)
-69 error     at TLSSocket.emit (node:events:518:28)
-69 error     at emitErrorNT (node:internal/streams/destroy:169:8)
-69 error     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+35 silly gitCommit v0.0.1
+36 verbose git [ 'commit', '-m', 'v0.0.1' ]
+37 silly gitTag v0.0.1 git tag %s -m %s
+38 verbose git [ 'tag', 'v0.0.1', '-m', 'v0.0.1' ]
+39 silly lifecycle No script for "postversion" in "@laibh-dev-cli/core", continuing
+40 silly lifecycle No script for "postversion" in "@laibh-dev-cli/utils", continuing
+41 silly lifecycle No script for "postversion" in "laibh-dev-cli", continuing
+42 info git Pushing tags...
+43 silly gitPush origin main
+44 info publish Publishing packages to npm...
+45 silly getCurrentSHA
+46 verbose getCurrentSHA 9d5b374d93e5fcb7548c52919b5c375cdd440521
+47 silly lifecycle No script for "prepublish" in "laibh-dev-cli", continuing
+48 silly lifecycle No script for "prepare" in "laibh-dev-cli", continuing
+49 silly lifecycle No script for "prepublishOnly" in "laibh-dev-cli", continuing
+50 silly lifecycle No script for "prepack" in "laibh-dev-cli", continuing
+51 verbose pack-directory packages\utils
+52 silly lifecycle No script for "prepublish" in "@laibh-dev-cli/utils", continuing
+53 silly lifecycle No script for "prepare" in "@laibh-dev-cli/utils", continuing
+54 silly lifecycle No script for "prepublishOnly" in "@laibh-dev-cli/utils", continuing
+55 silly lifecycle No script for "prepack" in "@laibh-dev-cli/utils", continuing
+56 silly lifecycle No script for "postpack" in "@laibh-dev-cli/utils", continuing
+57 verbose packed packages\utils
+58 verbose pack-directory packages\core
+59 silly lifecycle No script for "prepublish" in "@laibh-dev-cli/core", continuing
+60 silly lifecycle No script for "prepare" in "@laibh-dev-cli/core", continuing
+61 silly lifecycle No script for "prepublishOnly" in "@laibh-dev-cli/core", continuing
+62 silly lifecycle No script for "prepack" in "@laibh-dev-cli/core", continuing
+63 silly lifecycle No script for "postpack" in "@laibh-dev-cli/core", continuing
+64 verbose packed packages\core
+65 silly lifecycle No script for "postpack" in "laibh-dev-cli", continuing
+66 verbose publish @laibh-dev-cli/utils
+67 silly FetchError: request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
+67 silly     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+67 silly     at ClientRequest.emit (node:events:518:28)
+67 silly     at _destroy (node:_http_client:875:13)
+67 silly     at onSocketNT (node:_http_client:895:5)
+67 silly     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+67 silly  FetchError: request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
+67 silly     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+67 silly     at ClientRequest.emit (node:events:518:28)
+67 silly     at _destroy (node:_http_client:875:13)
+67 silly     at onSocketNT (node:_http_client:895:5)
+67 silly     at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+67 silly   code: 'ECONNRESET',
+67 silly   errno: 'ECONNRESET',
+67 silly   syscall: 'read',
+67 silly   type: 'system'
+67 silly }
+68 warn notice Package failed to publish: @laibh-dev-cli/utils
+69 error ECONNRESET request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
+70 error errno "ECONNRESET" is not a valid exit code - exiting with code 1
+71 error FetchError: request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
+71 error     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
+71 error     at ClientRequest.emit (node:events:518:28)
+71 error     at _destroy (node:_http_client:875:13)
+71 error     at onSocketNT (node:_http_client:895:5)
