@@ -1,11 +1,11 @@
-# `@frontend-dev-cli/core`
+# `@laibh-dev-cli/core`
 
 > TODO: description
 
 ## Usage
 
 ```
-const core = require('@frontend-dev-cli/core');
+const core = require('@laibh-dev-cli/core');
 
 // TODO: DEMONSTRATE API
 ```

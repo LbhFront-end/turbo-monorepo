@@ -23,19 +23,19 @@
 17 silly hasTags
 18 verbose hasTags false
 19 info Assuming all packages changed
-20 verbose updated @frontend-dev-cli/core
-21 verbose updated @frontend-dev-cli/utils
+20 verbose updated @laibh-dev-cli/core
+21 verbose updated @laibh-dev-cli/utils
 22 verbose git-describe undefined => "f7a755b"
 23 silly git-describe parsed => {"refCount":"7","sha":"f7a755b","isDirty":false}
 24 info execute Skipping releases
-25 silly lifecycle No script for "preversion" in "frontend-dev-cli", continuing
-26 silly lifecycle No script for "preversion" in "@frontend-dev-cli/utils", continuing
-27 verbose version @frontend-dev-cli/utils has no lockfile. Skipping lockfile update.
-28 silly lifecycle No script for "version" in "@frontend-dev-cli/utils", continuing
-29 silly lifecycle No script for "preversion" in "@frontend-dev-cli/core", continuing
-30 verbose version @frontend-dev-cli/core has no lockfile. Skipping lockfile update.
-31 silly lifecycle No script for "version" in "@frontend-dev-cli/core", continuing
-32 silly lifecycle No script for "version" in "frontend-dev-cli", continuing
+25 silly lifecycle No script for "preversion" in "laibh-dev-cli", continuing
+26 silly lifecycle No script for "preversion" in "@laibh-dev-cli/utils", continuing
+27 verbose version @laibh-dev-cli/utils has no lockfile. Skipping lockfile update.
+28 silly lifecycle No script for "version" in "@laibh-dev-cli/utils", continuing
+29 silly lifecycle No script for "preversion" in "@laibh-dev-cli/core", continuing
+30 verbose version @laibh-dev-cli/core has no lockfile. Skipping lockfile update.
+31 silly lifecycle No script for "version" in "@laibh-dev-cli/core", continuing
+32 silly lifecycle No script for "version" in "laibh-dev-cli", continuing
 33 verbose version Updating root pnpm-lock.yaml
 34 silly gitAdd [
 34 silly gitAdd   'packages/utils/package.json',
@@ -45,35 +45,35 @@
 34 silly gitAdd ]
 35 silly gitTag v0.0.1 git tag %s -m %s
 36 verbose git [ 'tag', 'v0.0.1', '-m', 'v0.0.1' ]
-37 silly lifecycle No script for "postversion" in "@frontend-dev-cli/core", continuing
-38 silly lifecycle No script for "postversion" in "@frontend-dev-cli/utils", continuing
-39 silly lifecycle No script for "postversion" in "frontend-dev-cli", continuing
+37 silly lifecycle No script for "postversion" in "@laibh-dev-cli/core", continuing
+38 silly lifecycle No script for "postversion" in "@laibh-dev-cli/utils", continuing
+39 silly lifecycle No script for "postversion" in "laibh-dev-cli", continuing
 40 info git Pushing tags...
 41 silly gitPush origin main
 42 info publish Publishing packages to npm...
 43 silly getCurrentSHA
 44 verbose getCurrentSHA f7a755b99a6ec48006f80597e5ce0af1ec13dfc5
-45 silly lifecycle No script for "prepublish" in "frontend-dev-cli", continuing
-46 silly lifecycle No script for "prepare" in "frontend-dev-cli", continuing
-47 silly lifecycle No script for "prepublishOnly" in "frontend-dev-cli", continuing
-48 silly lifecycle No script for "prepack" in "frontend-dev-cli", continuing
+45 silly lifecycle No script for "prepublish" in "laibh-dev-cli", continuing
+46 silly lifecycle No script for "prepare" in "laibh-dev-cli", continuing
+47 silly lifecycle No script for "prepublishOnly" in "laibh-dev-cli", continuing
+48 silly lifecycle No script for "prepack" in "laibh-dev-cli", continuing
 49 verbose pack-directory packages\utils
-50 silly lifecycle No script for "prepublish" in "@frontend-dev-cli/utils", continuing
-51 silly lifecycle No script for "prepare" in "@frontend-dev-cli/utils", continuing
-52 silly lifecycle No script for "prepublishOnly" in "@frontend-dev-cli/utils", continuing
-53 silly lifecycle No script for "prepack" in "@frontend-dev-cli/utils", continuing
-54 silly lifecycle No script for "postpack" in "@frontend-dev-cli/utils", continuing
+50 silly lifecycle No script for "prepublish" in "@laibh-dev-cli/utils", continuing
+51 silly lifecycle No script for "prepare" in "@laibh-dev-cli/utils", continuing
+52 silly lifecycle No script for "prepublishOnly" in "@laibh-dev-cli/utils", continuing
+53 silly lifecycle No script for "prepack" in "@laibh-dev-cli/utils", continuing
+54 silly lifecycle No script for "postpack" in "@laibh-dev-cli/utils", continuing
 55 verbose packed packages\utils
 56 verbose pack-directory packages\core
-57 silly lifecycle No script for "prepublish" in "@frontend-dev-cli/core", continuing
-58 silly lifecycle No script for "prepare" in "@frontend-dev-cli/core", continuing
-59 silly lifecycle No script for "prepublishOnly" in "@frontend-dev-cli/core", continuing
-60 silly lifecycle No script for "prepack" in "@frontend-dev-cli/core", continuing
-61 silly lifecycle No script for "postpack" in "@frontend-dev-cli/core", continuing
+57 silly lifecycle No script for "prepublish" in "@laibh-dev-cli/core", continuing
+58 silly lifecycle No script for "prepare" in "@laibh-dev-cli/core", continuing
+59 silly lifecycle No script for "prepublishOnly" in "@laibh-dev-cli/core", continuing
+60 silly lifecycle No script for "prepack" in "@laibh-dev-cli/core", continuing
+61 silly lifecycle No script for "postpack" in "@laibh-dev-cli/core", continuing
 62 verbose packed packages\core
-63 silly lifecycle No script for "postpack" in "frontend-dev-cli", continuing
-64 verbose publish @frontend-dev-cli/utils
-65 silly FetchError: request to https://registry.npmjs.org/@frontend-dev-cli%2futils failed, reason: read ECONNRESET
+63 silly lifecycle No script for "postpack" in "laibh-dev-cli", continuing
+64 verbose publish @laibh-dev-cli/utils
+65 silly FetchError: request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
 65 silly     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
 65 silly     at ClientRequest.emit (node:events:518:28)
 65 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
@@ -81,7 +81,7 @@
 65 silly     at emitErrorNT (node:internal/streams/destroy:169:8)
 65 silly     at emitErrorCloseNT (node:internal/streams/destroy:128:3)
 65 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-65 silly  FetchError: request to https://registry.npmjs.org/@frontend-dev-cli%2futils failed, reason: read ECONNRESET
+65 silly  FetchError: request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
 65 silly     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
 65 silly     at ClientRequest.emit (node:events:518:28)
 65 silly     at TLSSocket.socketErrorListener (node:_http_client:495:9)
@@ -94,10 +94,10 @@
 65 silly   syscall: 'read',
 65 silly   type: 'system'
 65 silly }
-66 warn notice Package failed to publish: @frontend-dev-cli/utils
-67 error ECONNRESET request to https://registry.npmjs.org/@frontend-dev-cli%2futils failed, reason: read ECONNRESET
+66 warn notice Package failed to publish: @laibh-dev-cli/utils
+67 error ECONNRESET request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
 68 error errno "ECONNRESET" is not a valid exit code - exiting with code 1
-69 error FetchError: request to https://registry.npmjs.org/@frontend-dev-cli%2futils failed, reason: read ECONNRESET
+69 error FetchError: request to https://registry.npmjs.org/@laibh-dev-cli%2futils failed, reason: read ECONNRESET
 69 error     at ClientRequest.<anonymous> (C:\Code\github\lerna-learn\node_modules\.pnpm\minipass-fetch@3.0.5\node_modules\minipass-fetch\lib\index.js:130:14)
 69 error     at ClientRequest.emit (node:events:518:28)
 69 error     at TLSSocket.socketErrorListener (node:_http_client:495:9)

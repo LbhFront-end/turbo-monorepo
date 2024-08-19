@@ -1,5 +1,5 @@
 {
-  "name": "@frontend-dev-cli/core",
+  "name": "@laibh-dev-cli/core",
   "version": "0.0.1",
   "description": "cli核心包",
   "author": "laibh <544289495@qq.com>",
@@ -20,7 +20,7 @@
     "build": "tsc --watch"
   },
   "dependencies": {
-    "@frontend-dev-cli/utils": "^0.0.1"
+    "@laibh-dev-cli/utils": "^0.0.1"
   },
-  "gitHead": "f7a755b99a6ec48006f80597e5ce0af1ec13dfc5"
+  "gitHead": "5a03d425154315a7fab4b46b52463e661267a03d"
 }

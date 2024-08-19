@@ -23,7 +23,7 @@ importers:
 
   packages/core:
     dependencies:
-      '@frontend-dev-cli/utils':
+      '@laibh-dev-cli/utils':
         specifier: ^0.0.1
         version: link:../utils
 

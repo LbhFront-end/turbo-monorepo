@@ -1,5 +1,5 @@
 {
-  "name": "@frontend-dev-cli/utils",
+  "name": "@laibh-dev-cli/utils",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "laibh <544289495@qq.com>",
@@ -19,5 +19,5 @@
   "scripts": {
     "build": "tsc --watch"
   },
-  "gitHead": "f7a755b99a6ec48006f80597e5ce0af1ec13dfc5"
+  "gitHead": "5a03d425154315a7fab4b46b52463e661267a03d"
 }
