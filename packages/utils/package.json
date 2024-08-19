@@ -15,10 +15,10 @@
   ],
   "publishConfig": {
     "access": "public",
-    "registry": "http://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "build": "tsc --watch"
   },
-  "gitHead": "74db7b4edf9d5b4b44be8853caa7e12ff5d1ed03"
+  "gitHead": "44490f9d51a3ef58530e62850ae18adf4c8669b1"
 }
