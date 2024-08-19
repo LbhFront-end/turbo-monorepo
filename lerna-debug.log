@@ -7,7 +7,7 @@
 1 notice cli v8.1.8
 2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
 3 verbose rootPath C:\Code\github\lerna-learn
-4 verbose session 46e92622e89dc16b
+4 verbose session cdcc6a5a680d6c8d
 5 verbose user-agent lerna/8.1.8/node@v20.11.0+x64 (win32)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '8.1.8' }
 7 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
@@ -25,8 +25,8 @@
 19 info Assuming all packages changed
 20 verbose updated @laibh-dev-cli/core
 21 verbose updated @laibh-dev-cli/utils
-22 verbose git-describe undefined => "1204a12"
-23 silly git-describe parsed => {"refCount":"11","sha":"1204a12","isDirty":false}
+22 verbose git-describe undefined => "74db7b4"
+23 silly git-describe parsed => {"refCount":"13","sha":"74db7b4","isDirty":false}
 24 info execute Skipping releases
 25 silly lifecycle No script for "preversion" in "laibh-dev-cli", continuing
 26 silly lifecycle No script for "preversion" in "@laibh-dev-cli/utils", continuing
@@ -43,18 +43,18 @@
 34 silly gitAdd   'lerna.json',
 34 silly gitAdd   'pnpm-lock.yaml'
 34 silly gitAdd ]
-35 silly gitCommit v0.0.1
-36 verbose git [ 'commit', '-m', 'v0.0.1' ]
-37 silly gitTag v0.0.1 git tag %s -m %s
-38 verbose git [ 'tag', 'v0.0.1', '-m', 'v0.0.1' ]
-39 silly lifecycle No script for "postversion" in "@laibh-dev-cli/core", continuing
-40 silly lifecycle No script for "postversion" in "@laibh-dev-cli/utils", continuing
-41 silly lifecycle No script for "postversion" in "laibh-dev-cli", continuing
-42 info git Pushing tags...
-43 silly gitPush origin main
-44 info publish Publishing packages to npm...
+35 silly gitTag v0.0.1 git tag %s -m %s
+36 verbose git [ 'tag', 'v0.0.1', '-m', 'v0.0.1' ]
+37 silly lifecycle No script for "postversion" in "@laibh-dev-cli/core", continuing
+38 silly lifecycle No script for "postversion" in "@laibh-dev-cli/utils", continuing
+39 silly lifecycle No script for "postversion" in "laibh-dev-cli", continuing
+40 info git Pushing tags...
+41 silly gitPush origin main
+42 info publish Publishing packages to npm...
+43 notice Skipping all user and access validation due to third-party registry
+44 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
 45 silly getCurrentSHA
-46 verbose getCurrentSHA 9d5b374d93e5fcb7548c52919b5c375cdd440521
+46 verbose getCurrentSHA 74db7b4edf9d5b4b44be8853caa7e12ff5d1ed03
 47 silly lifecycle No script for "prepublish" in "laibh-dev-cli", continuing
 48 silly lifecycle No script for "prepare" in "laibh-dev-cli", continuing
 49 silly lifecycle No script for "prepublishOnly" in "laibh-dev-cli", continuing
