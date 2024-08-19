@@ -20,5 +20,9 @@
   "scripts": {
     "build": "tsc --watch"
   },
-  "gitHead": "44490f9d51a3ef58530e62850ae18adf4c8669b1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LbhFront-end/turbo-monorepo.git"
+  },
+  "gitHead": "3cd9a5596b050ad86eb4e5764197aaabc5d9a2e3"
 }
